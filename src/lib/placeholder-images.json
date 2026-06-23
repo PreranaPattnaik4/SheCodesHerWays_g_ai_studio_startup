@@ -1,0 +1,262 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-background",
+      "description": "A diverse group of women collaborating and learning in a modern, sunlit workspace.",
+      "imageUrl": "https://images.unsplash.com/photo-1752650735499-744db10266d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx3b21lbiUyMGNvbGxhYm9yYXRpb258ZW58MHx8fHwxNzYyMjQwMTQ1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "women collaborating"
+    },
+    {
+      "id": "founder-portrait",
+      "description": "A professional and friendly portrait of the founder, Prerana Kailash Pattnaik.",
+      "imageUrl": "https://i.postimg.cc/HkLGWcM4/1718292767884.jpg",
+      "imageHint": "woman portrait"
+    },
+    {
+      "id": "team-member-1",
+      "description": "Portrait of a female team member.",
+      "imageUrl": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzYyMDB8MHwxfHNlYXJjaHwxfHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTcxODcyMDI3OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman portrait"
+    },
+    {
+      "id": "team-member-2",
+      "description": "Portrait of a female team member in a professional setting.",
+      "imageUrl": "https://images.unsplash.com/photo-1557862921-37829c790f19?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzYyMDB8MHwxfHNlYXJjaHwxfHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3MTg3MjAyNzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man portrait"
+    },
+    {
+      "id": "team-member-3",
+      "description": "Portrait of a smiling team member.",
+      "imageUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzYyMDB8MHwxfHNlYXJjaHwzfHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTcxODcyMDI3OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman portrait"
+    },
+    {
+      "id": "team-member-4",
+      "description": "Portrait of a smiling team member with a warm background.",
+      "imageUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzYyMDB8MHwxfHNlYXJjaHw1fHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTcxODcyMDI3OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman smiling"
+    },
+    {
+      "id": "team-member-5",
+      "description": "Portrait of a team member in a creative office.",
+      "imageUrl": "https://images.unsplash.com/photo-1544723795-3fb6469f5b39?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzYyMDB8MHwxfHNlYXJjaHwyfHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3MTg3MjAyNzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man creative"
+    },
+    {
+      "id": "team-member-6",
+      "description": "Portrait of a female graphics designer.",
+      "imageUrl": "https://images.unsplash.com/photo-1558507652-2d9626c4e67a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzYyMDB8MHwxfHNlYXJjaHw4fHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTcxODcyMDI3OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman creative"
+    },
+    {
+      "id": "team-member-7",
+      "description": "Portrait of a male video editor.",
+      "imageUrl": "https://images.unsplash.com/photo-1560250097-0b93528c311a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzYyMDB8MHwxfHNlYXJjaHw0fHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3MTg3MjAyNzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man editor"
+    },
+    {
+      "id": "team-member-8",
+      "description": "Portrait of a smiling woman in a professional setting.",
+      "imageUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzYyMDB8MHwxfHNlYXJjaHwzfHxwcm9mZXNzaW9uYWwlMjB3b21hbnxlbnwwfHx8fDE3MjQ0NDI5NTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman professional"
+    },
+    {
+      "id": "program-skill-dev",
+      "description": "A woman focused on her laptop in a colorful, creative environment.",
+      "imageUrl": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx3b21hbiUyMGxlYXJuaW5nJTIwb24lMjBsYXB0b3B8ZW58MHx8fHwxNzIyNTEzODQzfDA&ixlib-rb-4.1.0&w=1080&fit=max&q=80&fm=jpg&crop=entropy&cs=tinysrgb",
+      "imageHint": "woman learning"
+    },
+    {
+      "id": "program-mentorship",
+      "description": "Two women having a supportive conversation over coffee.",
+      "imageUrl": "https://images.unsplash.com/photo-1573497491208-6b1acb260507?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx3b21lbiUyMG1lbnRvcnNoaXB8ZW58MHx8fHwxNzIyNTEzODc1fDA&ixlib-rb-4.1.0&w=1080&fit=max&q=80&fm=jpg&crop=entropy&cs=tinysrgb",
+      "imageHint": "women mentorship"
+    },
+    {
+      "id": "program-internship",
+      "description": "A professional woman confidently leading a meeting.",
+      "imageUrl": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3b21hbiUyMGxlYWRpbmclMjBhJTIwbWVldGluZ3xlbnwwfHx8fDE3MjI1MTM5MDB8MA&ixlib-rb-4.1.0&w=1080&fit=max&q=80&fm=jpg&crop=entropy&cs=tinysrgb",
+      "imageHint": "woman leading meeting"
+    },
+    {
+      "id": "program-community",
+      "description": "A woman focused on her laptop in a colorful, creative environment.",
+      "imageUrl": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx3b21hbiUyMGxlYXJuaW5nJTIwb24lMjBsYXB0b3B8ZW58MHx8fHwxNzIyNTEzODQzfDA&ixlibrb-4.1.0&w=1080&fit=max&q=80&fm=jpg&crop=entropy&cs=tinysrgb",
+      "imageHint": "women learning"
+    },
+    {
+      "id": "forum-banner",
+      "description": "An abstract banner for the community forum.",
+      "imageUrl": "https://images.unsplash.com/photo-1706791722468-1e52d64bd3e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhYnN0cmFjdCUyMGJhbm5lcnxlbnwwfHx8fDE3NjIxNjYwODl8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract banner"
+    },
+    {
+      "id": "internship-hero",
+      "description": "Welcoming banner showing diverse women collaborating online.",
+      "imageUrl": "https://images.unsplash.com/photo-1699570047113-16fdf623e83e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3b21lbiUyMGNvbGxhYm9yYXRpb258ZW58MHx8fHwxNzYyMjQwMTQ1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "women collaborating"
+    },
+    {
+      "id": "internship-community",
+      "description": "A diverse group of women engaged in a lively and supportive discussion in a modern, bright space.",
+      "imageUrl": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxkaWdpdGFsJTIwc2lzdGVyaG9vZHxlbnwwfHx8fDE3MjM1OTAxODN8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "digital sisterhood"
+    },
+    {
+      "id": "internship-certificate",
+      "description": "A mock certificate with floral borders.",
+      "imageUrl": "https://images.unsplash.com/photo-1748712576506-000c01890275?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjZXJ0aWZpY2F0ZSUyMGZsb3JhbHxlbnwwfHx8fDE3NjIyNDczNDF8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "certificate floral"
+    },
+    {
+      "id": "about-program-1",
+      "description": "A woman confidently speaking to a group in an outdoor setting.",
+      "imageUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtZW50b3J8ZW58MHx8fHwxNzE4NzIwMzEyfDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman leader"
+    },
+    {
+      "id": "about-program-2",
+      "description": "Two women collaborating and smiling in a bright, modern office space.",
+      "imageUrl": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx3b21lbiUyMGNvbGxhYm9yYXRpb258ZW58MHx8fHwxNzYyMjQwMTQ1fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "women collaboration"
+    },
+    {
+      "id": "about-hero-team",
+      "description": "A diverse group of colleagues collaborating in a modern office.",
+      "imageUrl": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzYyMDB8MHwxfHNlYXJjaHw0fHx0ZWFtJTIwY29sbGFib3JhdGlvbnxlbnwwfHx8fDE3MTg3MjAyNzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "team collaboration"
+    },
+    {
+      "id": "startup-school-hero",
+      "description": "Three men having a discussion at a startup event.",
+      "imageUrl": "https://images.unsplash.com/photo-1671726805753-5d57b54c00fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxNXx8c3RhcnR1cCUyMGV2ZW50fGVufDB8fHx8fDE3NjU4NzgwNDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "startup event"
+    },
+    {
+      "id": "impact-goals-target",
+      "description": "A woman holding a bow and aiming at a target.",
+      "imageUrl": "https://images.unsplash.com/photo-1558546416-e8d2243e936b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3b21hbiUyMGFpbWluZyUyMGF0JTIwdGFyZ2V0fGVufDB8fHx8fDE3MjM1ODk2ODN8MA&ixlibrb-4.1.0&q=80&w=1080",
+      "imageHint": "woman target"
+    },
+    {
+      "id": "chatbot-avatar",
+      "description": "A friendly, abstract avatar for a chatbot.",
+      "imageUrl": "https://images.unsplash.com/photo-1615843423179-bea071facf96?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxib3QlMjBhdmF0YXJ8ZW58MHx8fHwxNzY1ODc4NTE3fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "bot avatar"
+    },
+    {
+      "id": "feature-palai",
+      "description": "A woman interacting with a futuristic chatbot interface on a transparent screen.",
+      "imageUrl": "https://i.postimg.cc/DzBLMHBS/man-using-laptop-with-chatbot-interface-(1).jpg",
+      "imageHint": "human chatbot"
+    },
+    {
+      "id": "feature-mentors",
+      "description": "Portrait of a woman with a sunlit background, representing guidance.",
+      "imageUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtZW50b3J8ZW58MHx8fHwxNzE4NzIwMzEyfDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "mentor"
+    },
+    {
+      "id": "feature-community",
+      "description": "Two people collaborating over a laptop, with yellow background.",
+      "imageUrl": "https://images.unsplash.com/photo-1543269664-56d93c1b41a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjb21tdW5pdHl8ZW58MHx8fHwxNzE4NzIwMzM5fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "community"
+    },
+    {
+      "id": "feature-workshops",
+      "description": "A group of people in a creative workshop setting.",
+      "imageUrl": "https://images.unsplash.com/photo-1516321497487-e288fb19713f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3b3Jrc2hvcHxlbnwwfHx8fDE3MTg3MjAzNjl8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "workshop"
+    },
+    {
+      "id": "feature-internships",
+      "description": "A person working on a laptop in a creative environment.",
+      "imageUrl": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxoYW5kcyUyMG9uJTIwZXhwZXJpZW5jZXxlbnwwfHx8fDE3MjI0OTczMzd8MA&ixlib-rb-4.1.0&w=1080&fit=max&q=80&fm=jpg&crop=entropy&cs=tinysrgb",
+      "imageHint": "hands-on experience"
+    },
+    {
+      "id": "feature-ai-coaching",
+      "description": "A futuristic image of a brain with network connections, representing AI intelligence and coaching.",
+      "imageUrl": "https://images.unsplash.com/photo-1535378917042-10a22c95931a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhSSUyMGJyYWlufGVufDB8fHx8MTcyMjQzNTQ2NHww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "ai brain"
+    },
+    {
+      "id": "feature-hackathon",
+      "description": "A team of diverse developers collaborating intensely during a hackathon event.",
+      "imageUrl": "https://images.unsplash.com/photo-1587620962725-abab7fe55159?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoYWNrYXRob258ZW58MHx8fHwxNzIyNDYwMjc0fDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "hackathon event"
+    },
+    {
+      "id": "feature-live-events",
+      "description": "A crowd of people at a live conference or event, looking engaged.",
+      "imageUrl": "https://images.unsplash.com/photo-1527529482837-4698179dc6ce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxpbnRlcmFjdGl2ZSUyMGV2ZW50fGVufDB8fHx8MTcyMjQ2MTE0OHww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "interactive event"
+    },
+    {
+      "id": "vision-community-voices",
+      "imageUrl": "https://images.unsplash.com/photo-1524250502761-1ac6f2e30d43?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzYyMDB8MHwxfHNlYXJjaHwxfHx3b21lbiUyMHRhbGtpbmd8ZW58MHx8fHwxNzE4NzIwMzEyfDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "description": "A group of diverse women engaged in a supportive conversation.",
+      "imageHint": "women talking"
+    },
+    {
+      "id": "vision-why-created",
+      "imageUrl": "https://images.unsplash.com/photo-1521791136064-7986c2920216?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzYyMDB8MHwxfHNlYXJjaHwxfHxpbnNwaXJhdGlvbnxlbnwwfHx8fDE3MTg3MjAyNzl8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "description": "A lightbulb moment, symbolizing the inspiration behind the startup.",
+      "imageHint": "inspiration lightbulb"
+    },
+    {
+      "id": "vision-impact",
+      "imageUrl": "https://images.unsplash.com/photo-1543269865-cbf427effbad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzYyMDB8MHwxfHNlYXJjaHwyfHxjb21tdW5pdHl8ZW58MHx8fHwxNzE4NzIwMzM5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "People working together, symbolizing community impact.",
+      "imageHint": "community impact"
+    },
+    {
+      "id": "vision-early-metrics",
+      "imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzYyMDB8MHwxfHNlYXJjaHwxfHxhbmFseXRpY3MlMjBkYXNoYm9hcmR8ZW58MHx8fHwxNzE4NzIwMzEyfDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "description": "A dashboard showing growth charts and metrics, representing early positive signals.",
+      "imageHint": "analytics dashboard"
+    },
+    {
+      "id": "vision-journey",
+      "imageUrl": "https://images.unsplash.com/photo-1476820865390-c52aeebb9891?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzYyMDB8MHwxfHNlYXJjaHwxfHxwYXRoJTIwaW4lMjBmb3Jlc3R8ZW58MHx8fHwxNzE4NzIwMzEyfDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "description": "A winding path through a forest, symbolizing the transformative journey of members.",
+      "imageHint": "path forest"
+    },
+    {
+      "id": "vision-our-approach",
+      "imageUrl": "https://images.unsplash.com/photo-1588340373801-fce3a3a31147?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzYyMDB8MHwxfHNlYXJjaHwxfHxoYW5kcyUyMGhvbGRpbmclMjBoZWFydHxlbnwwfHx8fDE3MTg3MjAyNzl8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "description": "Hands holding a heart shape, symbolizing care, intention, and authenticity.",
+      "imageHint": "hands heart"
+    },
+    {
+      "id": "ai-tools-banner",
+      "imageUrl": "https://images.unsplash.com/photo-1696203435834-453b3a7a011d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNzYyMDB8MHwxfHNlYXJjaHwxfHxhcnRpZmljaWFsJTIwaW50ZWxsaWdlbmNlJTIwYWJzdHJhY3R8ZW58MHx8fHwxNzE4NzIwMzEyfDA&ixlib-rb-4.1.0&q=80&w=1080",
+      "description": "An abstract image representing artificial intelligence and modern technology.",
+      "imageHint": "AI tools"
+    },
+    {
+      "id": "inclusive-approach-1",
+      "imageUrl": "https://i.postimg.cc/mkpGvRhK/unnamed-(1).jpg",
+      "description": "A diverse group of people collaborating in a meeting.",
+      "imageHint": "diverse team"
+    },
+    {
+      "id": "inclusive-approach-2",
+      "imageUrl": "https://i.postimg.cc/GhrjTY7D/front-view-young-colleagues-smiling.jpg",
+      "description": "A young woman smiling, representing program participants.",
+      "imageHint": "woman smiling"
+    },
+    {
+      "id": "inclusive-approach-3",
+      "imageUrl": "https://i.postimg.cc/B6H9nyNp/industrial-designers-working-3d-model.jpg",
+      "description": "People collaborating on a project, symbolizing hackathons and events.",
+      "imageHint": "community event"
+    },
+    {
+      "id": "inclusive-approach-4",
+      "imageUrl": "https://i.postimg.cc/R0Zjwhd0/a90169a1-9831-407f-97c9-0e270dcca46f.png",
+      "description": "Early core contributors working together.",
+      "imageHint": "team collaboration"
+    }
+  ]
+}

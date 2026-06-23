@@ -1,0 +1,331 @@
+
+'use client';
+
+import React from 'react';
+import Header from '@/components/header';
+import Footer from '@/components/footer';
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
+import { Button } from '@/components/ui/button';
+import Link from 'next/link';
+import { Bot, MessageSquare, Image as ImageIcon, Code, FileText, ArrowRight, ShieldCheck, CheckCircle2, BrainCircuit, Info, Server, Cpu, Database, Cloud, Code2 } from 'lucide-react';
+import { Badge } from '@/components/ui/badge';
+import Image from 'next/image';
+import { PlaceHolderImages } from '@/lib/placeholder-images';
+import LogoIcon from '@/components/logo-icon';
+
+const aiCoachTool = {
+    icon: BrainCircuit,
+    title: "EmpowerFly AI Coach",
+    subtitle: "Learn Anything, Just Ask",
+    description: "An agentic AI-powered coach that helps you learn any skill, from coding to creative writing, through personalized, conversational lessons.",
+    features: [
+        "Personalized learning paths",
+        "Interactive exercises",
+        "Real-time feedback"
+    ],
+    href: "#",
+    isReady: false,
+    poweredBy: "Google's Tech"
+};
+
+const otherAiTools = [
+    {
+        icon: ImageIcon,
+        title: "AI Image Studio",
+        subtitle: "From Idea to Image",
+        description: "Generate stunning, unique visuals for your projects, presentations, or social media. Simply describe what you want to see, and our AI will bring it to life.",
+        features: [
+            "Text-to-image generation",
+            "Multiple art styles",
+            "High-resolution outputs"
+        ],
+        href: "/ai-coaching/image-generator",
+        isReady: false,
+        poweredBy: "Google Imagen"
+    },
+    {
+        icon: Code,
+        title: "CodeCanvas Assistant",
+        subtitle: "Your AI Coding Partner",
+        description: "Accelerate your development process with an AI that can generate code snippets, explain complex concepts, and help you debug. Perfect for learning and building.",
+        features: [
+            "Generate code in multiple languages",
+            "Get explanations for code blocks",
+            "Assistance with debugging"
+        ],
+        href: "/ai-coaching/code-canvas",
+        isReady: false,
+        poweredBy: "Google Gemini"
+    },
+];
+
+const executiveSummaryTool = {
+    icon: FileText,
+    title: "Executive Summary Generator",
+    subtitle: "Craft the Perfect Pitch",
+    description: "Distill your startup's vision into a concise, powerful executive summary. Our AI helps you structure your ideas for maximum impact on investors and partners.",
+    features: [
+        "Guided input fields",
+        "Professional, structured output",
+        "Instantly ready for your pitch deck"
+    ],
+    href: "/ai-tools",
+    isReady: false,
+    poweredBy: "Google Gemini"
+};
+
+export default function AiCoachingPage() {
+  const heroImage = PlaceHolderImages.find((p) => p.id === 'feature-ai-coaching');
+  const coachImage = PlaceHolderImages.find((p) => p.id === 'feature-palai');
+
+  return (
+    <div className="flex min-h-dvh flex-col">
+      <Header />
+      <main className="flex-1">
+        <section className="relative bg-secondary py-16 md:py-24">
+            {heroImage && (
+                <Image
+                    src={heroImage.imageUrl}
+                    alt={heroImage.description}
+                    fill
+                    className="object-cover opacity-20"
+                    data-ai-hint={heroImage.imageHint}
+                />
+            )}
+            <div className="container relative mx-auto px-4 text-center">
+                <LogoIcon className="mx-auto h-12 w-12 text-primary" />
+                <h1 className="mt-4 font-headline text-4xl font-bold md:text-6xl">EmpowerFly AI Coach &amp; Tools</h1>
+                <p className="mt-4 max-w-3xl mx-auto text-lg text-foreground/80">
+                    Explore our suite of AI-powered tools designed to help you learn, create, and grow with confidence.
+                </p>
+            </div>
+        </section>
+
+        <section className="container mx-auto px-4 py-20 sm:px-6 lg:px-8">
+            <div className="space-y-16">
+                 <Card className="shadow-lg bg-muted/50">
+                    <div className="p-8 md:p-12">
+                        <div className="flex items-center gap-4 mb-4">
+                            <div className="bg-primary/10 text-primary p-3 rounded-full">
+                                <LogoIcon className="h-7 w-7" />
+                            </div>
+                             <h2 className="font-headline text-3xl font-bold">EmpowerFly Assistant</h2>
+                        </div>
+                       <Badge variant="secondary">Powered by Google Gemini</Badge>
+                        <p className="text-foreground/80 my-6 text-lg">
+                            Your personal AI guide is here to help you navigate your journey. Ask questions about our programs, get advice on your career path, or brainstorm ideas for your next project. The EmpowerFly Assistant is available 24/7 to provide support and guidance whenever you need it.
+                        </p>
+                        <Button asChild className="w-fit" size="lg">
+                            <Link href="/chatbot">
+                                Chat with the Assistant
+                                <ArrowRight className="ml-2 h-4 w-4" />
+                            </Link>
+                        </Button>
+                    </div>
+                </Card>
+
+                <div>
+                    <div className="text-center mb-6">
+                        <h2 className="font-headline text-3xl font-bold">Agentic AI-powered coach</h2>
+                        <Badge variant="secondary" className="mt-2">Powered by Google's Tech</Badge>
+                    </div>
+                    <Card key={aiCoachTool.title} className="flex flex-col shadow-lg transform transition-transform hover:-translate-y-2 duration-300">
+                        <CardHeader>
+                            <div className="flex items-center justify-between">
+                                <div className="bg-primary/10 text-primary p-3 rounded-full">
+                                    <aiCoachTool.icon className="h-7 w-7" />
+                                </div>
+                                {!aiCoachTool.isReady && <Badge variant="outline">Coming Soon</Badge>}
+                            </div>
+                            <CardTitle className="pt-4">{aiCoachTool.title}</CardTitle>
+                            <CardDescription>{aiCoachTool.subtitle}</CardDescription>
+                        </CardHeader>
+                        <CardContent className="flex-grow space-y-4">
+                            <p className="text-foreground/80">{aiCoachTool.description}</p>
+                            <div>
+                                <h4 className="font-semibold mb-2">Key Features:</h4>
+                                <ul className="space-y-2">
+                                    {aiCoachTool.features.map((feature, index) => (
+                                        <li key={index} className="flex items-start gap-2">
+                                            <CheckCircle2 className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
+                                            <span className="text-sm text-foreground/80">{feature}</span>
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
+                        </CardContent>
+                        <CardFooter className="flex-col items-start gap-4">
+                            <Button asChild className="w-full" disabled={!aiCoachTool.isReady}>
+                                <Link href={aiCoachTool.isReady ? aiCoachTool.href : '#'}>
+                                    {aiCoachTool.isReady ? 'Use Tool' : 'Coming Soon'}
+                                    {aiCoachTool.isReady && <ArrowRight className="ml-2 h-4 w-4" />}
+                                </Link>
+                            </Button>
+                        </CardFooter>
+                    </Card>
+                </div>
+
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch">
+                    {otherAiTools.map((tool) => (
+                        <Card key={tool.title} className="flex flex-col shadow-lg transform transition-transform hover:-translate-y-2 duration-300">
+                            <CardHeader>
+                                <div className="flex items-center justify-between">
+                                    <div className="bg-primary/10 text-primary p-3 rounded-full">
+                                        <tool.icon className="h-7 w-7" />
+                                    </div>
+                                    {!tool.isReady && <Badge variant="outline">Coming Soon</Badge>}
+                                </div>
+                                <CardTitle className="pt-4">{tool.title}</CardTitle>
+                                <CardDescription>{tool.subtitle}</CardDescription>
+                            </CardHeader>
+                            <CardContent className="flex-grow space-y-4">
+                                <p className="text-foreground/80">{tool.description}</p>
+                                <div>
+                                    <h4 className="font-semibold mb-2">Key Features:</h4>
+                                    <ul className="space-y-2">
+                                        {tool.features.map((feature, index) => (
+                                            <li key={index} className="flex items-start gap-2">
+                                                <CheckCircle2 className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
+                                                <span className="text-sm text-foreground/80">{feature}</span>
+                                            </li>
+                                        ))}
+                                    </ul>
+                                </div>
+                            </CardContent>
+                            <CardFooter className="flex-col items-start gap-4">
+                                <Badge variant="secondary">Powered by {tool.poweredBy}</Badge>
+                                <Button asChild className="w-full" disabled={!tool.isReady}>
+                                    <Link href={tool.isReady ? tool.href : '#'}>
+                                        {tool.isReady ? 'Use Tool' : 'Coming Soon'}
+                                        {tool.isReady && <ArrowRight className="ml-2 h-4 w-4" />}
+                                    </Link>
+                                </Button>
+                            </CardFooter>
+                        </Card>
+                    ))}
+                </div>
+
+                <Card key={executiveSummaryTool.title} className="flex flex-col shadow-lg transform transition-transform hover:-translate-y-2 duration-300">
+                    <CardHeader>
+                        <div className="flex items-center justify-between">
+                            <div className="bg-primary/10 text-primary p-3 rounded-full">
+                                <executiveSummaryTool.icon className="h-7 w-7" />
+                            </div>
+                            {!executiveSummaryTool.isReady && <Badge variant="outline">Coming Soon</Badge>}
+                        </div>
+                        <CardTitle className="pt-4">{executiveSummaryTool.title}</CardTitle>
+                        <CardDescription>{executiveSummaryTool.subtitle}</CardDescription>
+                    </CardHeader>
+                    <CardContent className="flex-grow space-y-4">
+                        <p className="text-foreground/80">{executiveSummaryTool.description}</p>
+                        <div>
+                            <h4 className="font-semibold mb-2">Key Features:</h4>
+                            <ul className="space-y-2">
+                                {executiveSummaryTool.features.map((feature, index) => (
+                                    <li key={index} className="flex items-start gap-2">
+                                        <CheckCircle2 className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
+                                        <span className="text-sm text-foreground/80">{feature}</span>
+                                    </li>
+                                ))}
+                            </ul>
+                        </div>
+                    </CardContent>
+                    <CardFooter className="flex-col items-start gap-4">
+                        <Badge variant="secondary">Powered by {executiveSummaryTool.poweredBy}</Badge>
+                        <Button asChild className="w-full" disabled={!executiveSummaryTool.isReady}>
+                            <Link href={executiveSummaryTool.isReady ? executiveSummaryTool.href : '#'}>
+                                {executiveSummaryTool.isReady ? 'Use Tool' : 'Coming Soon'}
+                                {executiveSummaryTool.isReady && <ArrowRight className="ml-2 h-4 w-4" />}
+                            </Link>
+                        </Button>
+                    </CardFooter>
+                </Card>
+            </div>
+        </section>
+
+        <section className="bg-muted/50 py-20">
+            <div className="container mx-auto px-4 max-w-3xl text-center">
+                 <ShieldCheck className="mx-auto h-12 w-12 text-primary" />
+                 <h2 className="mt-4 font-headline text-3xl font-bold">Built with Care &amp; Responsibility</h2>
+                 <p className="mt-4 text-lg text-foreground/80">
+                    At SheCodesHerWay, we are committed to developing AI tools that are not only powerful but also ethical and responsible. Our goal is to empower you while ensuring fairness, transparency, and respect for privacy. We design our AI to assist, not replace, human creativity and potential.
+                 </p>
+            </div>
+        </section>
+
+        <section className="py-20">
+            <div className="container mx-auto px-4">
+                <Card className="max-w-4xl mx-auto shadow-lg border-primary/20 bg-gradient-to-br from-background via-accent/10 to-background">
+                    <CardHeader>
+                        <CardTitle className="font-headline text-2xl md:text-3xl">Technology, AI Stack and Platform Status</CardTitle>
+                        <CardDescription>
+                            All AI features and tools on this platform are thoughtfully designed and built using Google’s advanced technology ecosystem.
+                        </CardDescription>
+                    </CardHeader>
+                    <CardContent className="space-y-8">
+                        <div className="grid md:grid-cols-2 gap-8">
+                            <div className="space-y-6">
+                                <div>
+                                    <h4 className="font-semibold text-lg flex items-center gap-2"><Server className="text-primary"/> AI and Platform Foundation</h4>
+                                    <ul className="mt-2 space-y-2 list-disc list-inside text-foreground/80">
+                                        <li>Built using Google Firebase AI Studio</li>
+                                        <li>Powered by Google AI and Gemini models</li>
+                                        <li>Secure backend with Firebase Authentication</li>
+                                        <li>Real-time data handling via Cloud Firestore</li>
+                                        <li>Scalable and reliable hosting using Firebase Hosting</li>
+                                        <li>Performance optimized through Google Cloud services</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <h4 className="font-semibold text-lg flex items-center gap-2"><Cpu className="text-primary"/> AI Capabilities on This Platform</h4>
+                                    <ul className="mt-2 space-y-2 list-disc list-inside text-foreground/80">
+                                        <li>AI powered learning assistance</li>
+                                        <li>Smart coaching and guided support tools</li>
+                                        <li>Interactive AI features for skill building</li>
+                                        <li>Intelligent content assistance for users</li>
+                                        <li>Scalable AI integrations for future expansion</li>
+                                    </ul>
+                                </div>
+                                 <div>
+                                    <h4 className="font-semibold text-lg flex items-center gap-2"><Code2 className="text-primary"/> Development Stack</h4>
+                                    <ul className="mt-2 space-y-2 list-disc list-inside text-foreground/80">
+                                        <li>Frontend developed using modern web technologies</li>
+                                        <li>Backend, AI services and infrastructure managed through Firebase and Google Cloud</li>
+                                        <li>Designed with a focus on scalability, security and performance</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className="bg-accent/30 p-6 rounded-lg border border-accent/50">
+                                <h4 className="font-semibold text-lg flex items-center gap-2"><Info className="text-accent-foreground"/> Important Note: Prototype Phase</h4>
+                                <div className="mt-2 space-y-4 text-accent-foreground/90">
+                                    <p>This platform is currently in its <strong>prototype stage</strong>.</p>
+                                    <ul className="space-y-2 list-disc list-inside text-sm">
+                                        <li>All AI features, tools and coaching modules displayed on this website are under active development and testing.</li>
+                                        <li>Some functionalities may be limited, partially available or marked as coming soon.</li>
+                                    </ul>
+                                    <h5 className="font-semibold pt-2">What This Means for Users</h5>
+                                    <ul className="space-y-2 list-disc list-inside text-sm">
+                                        <li>The platform is currently available for demonstration and early access purposes</li>
+                                        <li>AI Coaching and advanced AI tools will be fully enabled soon</li>
+                                        <li>Features will be rolled out gradually for all users</li>
+                                        <li>User feedback during this phase helps improve and refine the experience</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="bg-muted/80 p-4 rounded-lg text-center mt-8">
+                             <h4 className="font-semibold text-lg">Technology Transparency</h4>
+                             <p className="text-sm text-muted-foreground mt-2 max-w-3xl mx-auto">This prototype is built using Firebase AI Studio and Google’s AI focused technology stack, ensuring a secure, scalable and future ready foundation. We are actively working to make all AI powered features fully available very soon for our community. Thank you for being part of the early journey with EmpowerFly by SheCodesHerWay, a platform built to help women grow, learn and lead with confidence.</p>
+                        </div>
+                    </CardContent>
+                </Card>
+            </div>
+        </section>
+
+      </main>
+      <Footer />
+    </div>
+  );
+}
+
+    
